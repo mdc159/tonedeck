@@ -1,0 +1,20 @@
+# Build
+build/
+*.o
+*.so
+compile_commands.json
+
+# Dependencies
+deps/
+node_modules/
+
+# Models (user content, not repo content)
+models/
+*.nam
+*.namb
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
